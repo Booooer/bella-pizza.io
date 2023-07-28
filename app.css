@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+main{
+    height: 700px;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background: #1A1A1D;
+}
+.temp{
+    width: 700px;
+    height: 450px;
+    stroke-linejoin: bevel;
+    stroke-linecap: square;
+    transition: fill .7s ease;
+}
+svg line {
+    transition: fill .7s ease;
+    stroke: #4E4E50;
+}
+svg path{
+    transition: fill .7s ease;
+    fill: rgb(255,189,0);
+    stroke-dasharray: 100;
+    animation: dash 5s linear;
+}
+svg circle{
+    transition: fill .7s ease;
+}
+.logo img{
+    width: 400px;
+    height: 230px;
+    margin-top: -20px;
+}
+.path{
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: dash 1s linear;
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset: 320;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/*  */
+
+.svg-text {
+	/* font-family: 'Pacifico', cursive; */
+    font-family: 'Caveat', cursive;
+	width: 80%; 
+    height: 80%;
+}
+.svg-text text {
+    transition: fill .7s ease;
+	text-transform: uppercase;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365fa0;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,20,0); stroke: rgba(181,34,34,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,20,0); stroke: rgb(181, 88, 34); }
+	80%  {fill: rgba(72,138,20,0); stroke: rgb(214, 148, 26); stroke-width: 3; }
+	100% {
+		fill: rgb(238, 223, 10); stroke: rgba(54,95,160,0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
