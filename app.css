@@ -81,7 +81,7 @@ svg circle{
 	animation: stroke 5s infinite alternate;
 	stroke-width: 2;
 	stroke: #365fa0;
-	font-size: 80px;
+	/* font-size: 80px; */
 }
 @keyframes stroke {
 	0%   {
