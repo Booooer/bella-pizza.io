@@ -37,6 +37,6 @@
 
 $(document).ready(function () {
     setTimeout(() => {
-        $('.preloader').slideUp('slow')
+        $('.preloader').slideUp('fast')
     }, 6000); 
 });
