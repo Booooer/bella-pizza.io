@@ -11,7 +11,14 @@
         display: none;
     }
     .svg-text:nth-child(2){
-        margin-top: -20vh;
-        font-size: 250px;
+        y:20% !important;
+        font-size: 25px !important; 
+    }
+    .svg-text:nth-child(1){
+        font-size: 25px !important; 
+    }
+    .preloader svg{
+        width: 320px !important;
+        height: auto;
     }
 }

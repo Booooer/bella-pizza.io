@@ -35,6 +35,8 @@
 //     index++
 // }
 
-setTimeout(() => {
-    $('.preloader').slideUp('slow')
-}, 7000);
+$(document).ready(function () {
+    setTimeout(() => {
+        $('.preloader').slideUp('slow')
+    }, 6000); 
+});
