@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: FuturaBookC;
+    font-family: Futura;
     src: url('resources/fonts/FUTURABOOKC.TTF');
 }
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -15,7 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    font-family: FuturaBookC;
+    font-family: Futura;
 }
 ul,li{
     text-decoration: none;
