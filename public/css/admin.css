@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+:root{
+  --black: #1A1A1D;
+  --red: #B52222;
+  --yellow: #FAD768;
+  --orange: #E36900;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.relative{
+  position: relative;
+}
+
+/* fonts */
+@font-face {
+  font-family: Futura;
+  src: url('../fonts/FUTURABOOKC.TTF')
+  format("truetype");
+}
+
+@font-face {
+  font-family: "Nord-Star Deco";
+  src: url('../fonts/Nord-Star-Deco.ttf')
+  format("truetype");
+}
+
+ /*admin menu*/
+.admin-panel{
+  font-family: "Nord-Star Deco";
+}
+
+.cms_title{
+  font-family: 'Fuggles', cursive !important;
+  font-size: 48px;
+}
+
+.admin-menu{
+  color: #fff;
+  width: 400px;
+  height: 100vh;
+  background: var(--red);
+  overflow: auto;
+}
+
+.admin-view{
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  background: var(--black);
+}
+
+.admin-wrapper{
+  padding-left: 3vw;
+}
+
+.menu-list p{
+  cursor: pointer;
+  width: 100%;
+  padding: 30px 0;
+  transition: all .3s ease-out;
+}
+
+.menu-list p:hover{
+  border-right: 5px solid var(--yellow);
+}
+
+.user-status{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.status-icon{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: var(--yellow);
+}
+
+.user-status img{
+  width: 205px;
+  height: 205px;
+  object-fit: cover;
+  border-radius: 0 102px 0 0;
+}
+
+/* admin-view */
+
+.admin-view{
+  color: #fff;
+  overflow: auto;
+}
+
+/* dashboard */
+
+.dash{
+  transition: all .5s ease-in;
+  background: var(--yellow);
+  color: var(--black);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.dash-panels{
+  width: 55%;
+}
+
+.dash:hover{
+  background: var(--red);
+  color: #fff;
+}
+
+.dash-orders-day{
+  width: 320px;
+  height: 220px;
+}
+
+.dash-container{
+  /*width: 85%;*/
+}
+
+.dash-main{
+  width: 320px;
+  height: 450px;
+  margin-left: 5vw;
+}
+
+.font-upper{
+  font-size: 36px;
+}
+
+.dash-fun{
+  width: 86%;
+  height: 220px;
+}
+
+.admin-dashboard{
+  overflow: auto;
+}
+
+.active-panel{
+  border-right: 5px solid var(--yellow);
+}
